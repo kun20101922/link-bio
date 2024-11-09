@@ -1,0 +1,38 @@
+header {
+  margin: auto;
+  justify-content: center;
+  margin-top: 1em;
+  display: flex;
+  width: 40%;
+  height: 8vb;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(33px);
+  backdrop-filter: blur(33px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1em;
+}
+
+header > img {
+  position: absolute;
+  left: 2%;
+  width: 2em;
+  height: 2em;
+  background: none;
+  border: solid white 1px;
+  border-radius: 100%;
+  transition: all 1s;
+
+  &:hover {
+    cursor: pointer;
+    filter: drop-shadow(dodgerblue 0px 0px 10px);
+  }
+}
+
+header > h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  padding: 1em;
+}
