@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: url(image/flying-over-the-valley-at-sunset-ow-1366x768.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
