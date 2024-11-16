@@ -11,7 +11,7 @@ ul > li {
   -webkit-backdrop-filter: blur(45px);
   backdrop-filter: blur(45px);
   border: 1px solid rgba(255, 255, 255, 0.225);
-  border-radius: 3% 11% 4% 4% / 22% 56% 21% 22%;
+  border-radius: 3em;
   margin: 1.4em 0;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
